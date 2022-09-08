@@ -7,7 +7,6 @@
 body{
     background-color: aliceblue;
 }
-
 .container{
     width: 100%;
     margin: 0 auto;
@@ -19,14 +18,9 @@ HEADER INI
 */
 
 header{
-    height: 60px;
+    height: 61px;
     background-color: #111111;
 
-}
-
-header img{
-    width: 200px;
-    margin-top: 5px;
 }
 .navbar{
     display: flex;
@@ -40,7 +34,10 @@ ul li{
     margin-top: 20px;
     margin-right: 10px;
 }
-
+.ul-li-head{
+    display: flex;
+    justify-content: flex-end;
+}
 /*
 ###########################################
 HEADER INI
@@ -54,7 +51,7 @@ MAIN INI
 */
 
 main{
-    width: 100%;
+    width: 100vh;
     margin: 0 auto;
     background-color: black;
 
@@ -62,9 +59,11 @@ main{
 
 .row-flex{
     display: flex;
+    margin: 0 auto;
+    width: 90vW;
 }
 .col{
-    height: 100vh;
+    height: 18vh;
     width: 100%;
     margin: 10px auto;
     background-color: grey;
@@ -83,10 +82,10 @@ main{
     color: white;
 }
 #photo{
-    background-image: url(https://picsum.photos/200/300?grayscale);
+    background-image: url("https://picsum.photos/id/29/200/300");
     width: 100%;
     margin: 10px;
-    height: 50vh;
+    height: 135px;
 }
 
 /*
@@ -109,24 +108,12 @@ INFO INI
 
 /*
 ###########################################
-HOVER INI
-###########################################
-*/
-
-/*
-###########################################
-HOVER END
-###########################################
-*/
-
-/*
-###########################################
 FOOTER INI
 ###########################################
 */
 footer{
     width: 100%;
-    height: 100px;
+    height: 101px;
     background-color: #111111;
     padding-left: 20px;
 }
@@ -134,14 +121,15 @@ footer{
 .footnavbar{
     display: flex;
     justify-content: space-between;
-    
-
+    align-items: center;
 }
 ul li i{
     color: white;
     cursor: pointer;
     margin-left: 30px;
+    font-size: 20px;
 }
+
 .fa-share-from-square{
     color: greenyellow;
 }
@@ -149,85 +137,18 @@ ul li i{
     height: 100px;
     width: 150px;
     background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .esci div{
     color: darkred;
     font-weight: 600;
     font-size: 12px;
-    top: 95%;
-    left: 94%;
     position: absolute;
 }
 /*
 ###########################################
 FOOTER END
 ###########################################
-*/
-
-/*
-.wrapper{
-    width: 100%;
-    margin: auto;
-}
-.box{
-    height: calc(100vh - 20px);
-    width: 100%;
-    margin: 10px auto;
-    background-color: grey;
-    color: white;
-    font-size: 5vw;
-    position: relative;
-    background-size: cover;
-    background-position: center;
-}
-h2{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-#milano{
-    background-image: url();
-}
-.layover{
-    position: relative;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-}
-.layover:hover{
-    background-color: rgba(0, 0, 0, 0);
-}
-/*
-header{
-    width: 100%;
-    height: 70px;
-    background-color: blueviolet;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1000;
-}
-footer{
-    width: 100%;
-    height: 100px;
-    background-color: #111111;
-}
-main{
-    height: calc(100vh - 100px);
-    background-color: antiquewhite;
-    overflow: hidden;
-    padding-top: 70px;
-    position: relative;
-}
-
-.box{
-    height: 30vh;
-    width: 30vh;
-    background-color: red;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
 */
