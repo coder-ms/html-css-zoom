@@ -87,6 +87,17 @@ main{
     margin: 10px;
     height: 135px;
 }
+.label1{
+    position: absolute;
+    bottom: 0;
+    width: 100px;
+    padding: 3px;
+    padding-left: 3px;
+    left: 0;
+    font-size: 13px;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+}
 
 /*
 ###########################################
