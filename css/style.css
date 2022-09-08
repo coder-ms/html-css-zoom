@@ -18,7 +18,7 @@ HEADER INI
 */
 
 header{
-    height: 61px;
+    height: 81px;
     background-color: #111111;
 
 }
@@ -37,6 +37,41 @@ ul li{
 .ul-li-head{
     display: flex;
     justify-content: flex-end;
+    padding-top: 20px;
+}
+.entra{
+    height: 30px;
+    width: 150px;
+    background-color: grey;
+    display: flex;
+    align-items: right;
+    justify-content: center;
+    position: relative;
+    padding-top: 8px;
+    margin: 5px;
+}
+.entra div{
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    position: absolute;
+}
+.entra1{
+    height: 30px;
+    width: 30px;
+    background-color: grey;
+    display: flex;
+    align-items: right;
+    justify-content: center;
+    position: relative;
+    padding-top: 8px;
+    margin: 5px;
+}
+.entra1 div{
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    position: absolute;
 }
 /*
 ###########################################
@@ -124,7 +159,7 @@ FOOTER INI
 */
 footer{
     width: 100%;
-    height: 101px;
+    height: 81px;
     background-color: #111111;
     padding-left: 20px;
 }
@@ -145,7 +180,7 @@ ul li i{
     color: greenyellow;
 }
 .esci{
-    height: 100px;
+    height: 80px;
     width: 150px;
     background-color: grey;
     display: flex;
@@ -155,9 +190,20 @@ ul li i{
 .esci div{
     color: darkred;
     font-weight: 600;
-    font-size: 12px;
+    font-size: 16px;
     position: absolute;
 }
+ul li p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding-top: 5px;
+}
+.fa-solid, .fa-brands{
+    font-size: 17px;
+}
+
 /*
 ###########################################
 FOOTER END
