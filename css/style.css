@@ -85,7 +85,7 @@ main{
 #photo{
     background-image: url(https://picsum.photos/200/300?grayscale);
     width: 100%;
-    margin-top: 200px;
+    margin: 10px;
     height: 50vh;
 }
 
